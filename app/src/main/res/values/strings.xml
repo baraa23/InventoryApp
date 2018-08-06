@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="overview">Overview</string>
+    <string name="name_hint">Name</string>
+    <string name="price_hint">Price</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="supplier">Supplier</string>
+    <string name="supplier_name_hint">Supplier Name</string>
+    <string name="supplier_phone_number_hint">Supplier Phone Number</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="activity_catalog_label">Books</string>
+</resources>
