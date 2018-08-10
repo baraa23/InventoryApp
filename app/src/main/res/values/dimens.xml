@@ -5,4 +5,32 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="activity_margin_padding">16dp</dimen>
     <dimen name="margin_bottom_linear">16dp</dimen>
+
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="half_margin">8dp</dimen>
+
+    <dimen name="quarter_margin">4dp</dimen>
+
+    <dimen name="standard_size">16sp</dimen>
+
+    <dimen name="book_text_size">20sp</dimen>
+
+    <dimen name="detail_size">20sp</dimen>
+
+    <dimen name="image_dimension">120dp</dimen>
+
+    <dimen name="spinner_dimension">48dp</dimen>
+
+    <dimen name="quantity_button_width">32dp</dimen>
+
+    <dimen name="quantity_button_height">32dp</dimen>
+    <dimen name="book_name_margin">16dp</dimen>
+    <dimen name="label_size">20sp</dimen>
+    <dimen name="list_item_parent">16dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="book_name_main">22sp</dimen>
+    <dimen name="text_size_main_activity">18sp</dimen>
+    <dimen name="padding_currency_sign">16dp</dimen>
+    <dimen name="margin_book_detail">16dp</dimen>
 </resources>

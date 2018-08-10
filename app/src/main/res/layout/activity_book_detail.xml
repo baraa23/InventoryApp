@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.baraa.inventoryapp.BookDetail">
+
+
+        <LinearLayout
+            style="@style/linearBookDetail"
+            android:layout_marginTop="@dimen/book_name_margin">
+
+            <TextView
+                style="@style/headerText"
+                android:text="@string/book_name" />
+
+            <TextView
+                android:id="@+id/book_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linearBookDetail"
+            android:layout_width="wrap_content">
+
+            <TextView
+                style="@style/headerText"
+                android:text="@string/quantity_detail" />
+
+            <ImageButton
+                android:id="@+id/minus_button"
+                style="@style/minusPlus"
+                android:contentDescription="@string/minus_button_desc"
+                android:src="@drawable/minus" />
+
+            <TextView
+                android:id="@+id/book_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:textSize="@dimen/detail_size" />
+
+            <ImageButton
+                android:id="@+id/plus_button"
+                style="@style/minusPlus"
+                android:contentDescription="@string/plus_quantity_desc"
+                android:src="@drawable/plus" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearBookDetail">
+
+            <TextView
+                style="@style/headerText"
+                android:text="@string/price_detail" />
+
+            <TextView
+                android:id="@+id/book_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/currency_sign"
+                android:textSize="@dimen/detail_size" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearBookDetail">
+
+            <TextView
+                style="@style/headerText"
+                android:text="@string/supplier_name_detail" />
+
+            <TextView
+                android:id="@+id/supplier_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearBookDetail">
+
+            <TextView
+                style="@style/headerText"
+                android:text="@string/supplier_phone_detail" />
+
+            <TextView
+                android:id="@+id/supplier_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/edit_button"
+                style="@style/imageButtonStyle"
+                android:contentDescription="@string/edit_book_icon_desc"
+                android:src="@drawable/edit_icon" />
+
+            <ImageButton
+                android:id="@+id/delete_button"
+                style="@style/imageButtonStyle"
+                android:contentDescription="@string/delete_book_icon_desc"
+                android:src="@drawable/delete_icon" />
+
+            <ImageButton
+                android:id="@+id/contact_button"
+                style="@style/imageButtonStyle"
+                android:contentDescription="@string/call_the_supplier_icon_desc"
+                android:src="@drawable/call_sign" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -14,9 +14,8 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:paddingTop">16dp</item>
-        <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@color/colorAccent</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>
 
@@ -30,4 +29,67 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
+
+    <style name="priceStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif"</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="imageButtonStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="linearBookDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin_book_detail</item>
+        <item name="android:layout_marginLeft">@dimen/margin_book_detail</item>
+        <item name="android:layout_marginRight">@dimen/margin_book_detail</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="EditorUnitsStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">@dimen/padding_currency_sign</item>
+        <item name="android:paddingTop">@dimen/padding_currency_sign</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="headerText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/label_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="minusPlus">
+        <item name="android:layout_width">@dimen/quantity_button_width</item>
+        <item name="android:layout_height">@dimen/quantity_button_height</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="linearEditField">
+        <item name="android:paddingLeft">@dimen/quarter_margin</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+    </style>
 </resources>

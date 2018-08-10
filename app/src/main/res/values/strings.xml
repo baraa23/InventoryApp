@@ -8,6 +8,69 @@
     <string name="supplier_name_hint">Supplier Name</string>
     <string name="supplier_phone_number_hint">Supplier Phone Number</string>
     <string name="save">Save</string>
-    <string name="delete">Delete</string>
+
     <string name="activity_catalog_label">Books</string>
+
+
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="editor_delete_book_successful">Book deleted!</string>
+
+    <string name="editor_delete_book_failed">Error with deleting book!</string>
+    <string name="editor_activity_title_new_book">New Book</string>
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <string name="quantity_0">0</string>
+    <string name="quantity_1">1</string>
+    <string name="quantity_2">2</string>
+    <string name="quantity_3">3</string>
+    <string name="quantity_4">4</string>
+    <string name="quantity_5">5</string>
+    <string name="quantity_6">6</string>
+    <string name="quantity_7">7</string>
+    <string name="quantity_8">8</string>
+    <string name="quantity_9">9</string>
+    <string name="quantity_10">10</string>
+
+
+    <string name="editor_insert_book_failed">All information must be entered!</string>
+    <string name="editor_insert_book_successful">Insert book successful!</string>
+    <string name="editor_update_book_failed">Update book failed!</string>
+    <string name="editor_update_book_successful">Update book successful!</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="book_name">Book Name:</string>
+    <string name="quantity_detail">Quantity:</string>
+    <string name="price_detail">Price:</string>
+    <string name="currency_sign">$</string>
+    <string name="supplier_name_detail">Supplier Name:</string>
+    <string name="supplier_phone_detail">Supplier Phone:</string>
+    <string name="library_image_desc">library</string>
+    <string name="empty_title">No Books yet!</string>
+    <string name="empty_text">Get Started!\nby adding some books via plus button.</string>
+    <string name="books_name_hint">book\'s name</string>
+    <string name="quantity_main">Quantity:</string>
+    <string name="price_main_text">Price:</string>
+    <string name="sale_button">SALE</string>
+    <string name="currency_sign_main">$</string>
+    <string name="book_s_name_edit">Book\'s Name</string>
+    <string name="quantity_edit">Quantity</string>
+    <string name="price_edit">Price</string>
+    <string name="currency_edit">$</string>
+    <string name="supplier_name_edit">Supplier Name</string>
+    <string name="supplier_phone_edit">Supplier Phone</string>
+    <string name="phone_hint">Phone</string>
+    <string name="supplier_hint">Supplier</string>
+    <string name="minus_button_desc">decrease the quantity</string>
+    <string name="plus_quantity_desc">increases the quantity</string>
+    <string name="edit_book_icon_desc">Edit Book</string>
+    <string name="delete_book_icon_desc">Delete Book</string>
+    <string name="call_the_supplier_icon_desc">Call the supplier</string>
 </resources>
